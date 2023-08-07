@@ -20,7 +20,7 @@ extern "C" {
 #include "led_strip.h"
 // GPIO assignment
 #define LED_STRIP_BLINK_GPIO 38
-static const char* TAG = "aguaalaser";
+static const char* TAG = "example_gpio";
 }
 
 #include "cppgpio.h"
