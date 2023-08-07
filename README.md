@@ -9,12 +9,11 @@ This test code shows how to configure GPIO and how to use it with interruption u
 
 | GPIO                         | Direction | Configuration                                          |
 | ---------------------------- | --------- | ------------------------------------------------------ |
-| CONFIG_GPIO_OUTPUT_1         | output    |                                                        |
-| CONFIG_GPIO_OUTPUT_2         | output    |                                                        |
-| CONFIG_GPIO_OUTPUT_3         | output    |                                                        |
-| CONFIG_GPIO_RGB              | output    | SPI driver for WS2812                                  |
-| CONFIG_GPIO_INPUT_1          | input     | pulled up, interrupt from rising edge                  |
-
+| output_1                     | output    |                                                        |
+| output_2                     | output    |                                                        |
+| output_3                     | output    |                                                        |
+| LED_STRIP_BLINK_GPIO         | output    | SPI driver for WS2812                                  |
+| input_1                      | input     | pulled up, interrupt from rising edge                  |
 
 ## Test:
 The example uses GPIO0 as input where normally we have a button attached to the port for BOOT porpuses, but in this example the button is going to be used for triggering a interruption and also control the configure outputs.
