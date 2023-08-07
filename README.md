@@ -57,23 +57,23 @@ Below is short explanation of remaining files in the project folder.
 │   │   └── src
 │   │       ├── cppgpio_input.cpp
 │   │       └── cppgpio_output.cpp
-│   ├── espressif_led_strip_2.4.1
-│   │   ├── CMakeLists.txt
-│   │   ├── idf_component.yml
-│   │   ├── README.md
-│   │   ├── include
-│   │   │   ├── led_strip.h
-│   │   │   ├── led_strip_rmt.h
-│   │   │   ├── led_strip_spi.h
-│   │   │   └── led_strip_types.h
-│   │   ├── include
-│   │   │   └──  led_strip_interface.h
-│   │   └── src
-│   │       ├── led_strip_api.c
-│   │       ├── led_strip_rmt_dev.c
-│   │       ├── led_strip_rmt_encoder.c
-│   │       ├── led_strip_rmt_encoder.h
-│   │       └── led_strip_spi_dev.cpp
+│   └── espressif_led_strip_2.4.1
+│       ├── CMakeLists.txt
+│       ├── idf_component.yml
+│       ├── README.md
+│       ├── include
+│       │   ├── led_strip.h
+│       │   ├── led_strip_rmt.h
+│       │   ├── led_strip_spi.h
+│       │   └── led_strip_types.h
+│       ├── include
+│       │   └──  led_strip_interface.h
+│       └── src
+│           ├── led_strip_api.c
+│           ├── led_strip_rmt_dev.c
+│           ├── led_strip_rmt_encoder.c
+│           ├── led_strip_rmt_encoder.h
+│           └── led_strip_spi_dev.cpp
 ├── main
 │   ├── CMakeLists.txt
 │   ├── main.h
